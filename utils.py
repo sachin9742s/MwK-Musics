@@ -1,4 +1,4 @@
-# Regen & Mod by @shamilhabeebnelli
+# Regen & Mod by @sachin_official_admin
 # Pyrogram - Telegram MTProto API Client Library for Python
 # Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
 #
@@ -28,7 +28,7 @@ from pyrogram import Client
 from youtube_dl import YoutubeDL
 from os import path
 bot = Client(
-    "MwKVC",
+    "KicchaRequestVC",
     Config.API_ID,
     Config.API_HASH,
     bot_token=Config.BOT_TOKEN
