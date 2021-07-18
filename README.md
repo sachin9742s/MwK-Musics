@@ -7,13 +7,13 @@ Supports Mega Radio Fm Streamings
 ```
 Please fork this repository don't import code
 Made with Python3
-(C) @shamilhabeebnelli
-License -> https://github.com/shamilhabeebnelli/MwK-Musics/blob/master/LICENSE
+(C) @sachin9742s
+License -> https://github.com/sachin9742s/MwK-Musics/blob/master/LICENSE
 ```
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shamilhabeebnelli/mwk-musics)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sachin9742s/mwk-musics)
 
 
 ### Deploy to VPS
@@ -70,4 +70,4 @@ python3 main.py
 ```
 #### Support
 
-Connect Me On [Telegram](https://telegram.dog/shamilnelli)
+Connect Me On [Telegram](https://telegram.dog/sachin_official_admin)
