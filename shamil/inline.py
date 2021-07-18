@@ -1,4 +1,4 @@
-# Regen & Mod by @shamilhabeebnelli
+# Regen & Mod by @sachin_official_admin
 # Pyrogram - Telegram MTProto API Client Library for Python
 # Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
 #
@@ -28,10 +28,10 @@ buttons = [
     [
         InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/KicchaRequest'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/KicchaRequest')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),       
+                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/sachin9742s/mwk-musics'),       
     ]
     ]
 
@@ -42,9 +42,9 @@ async def search(client, query):
         answers.append(
             InlineQueryResultPhoto(
                     title="do you wanna help huh?",
-                    thumb_url="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg",
-                    photo_url="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg",
-                    caption=(f"{REPLY_MESSAGE}\n\n**Powered By** [ __@MwKLinks | @RedbullFED__ ]"),
+                    thumb_url="https://telegra.ph/file/9b72921bb0a38a3e7069e.jpg",
+                    photo_url="https://telegra.ph/file/9b72921bb0a38a3e7069e.jpg",
+                    caption=(f"{REPLY_MESSAGE}\n\n**Powered By** [ __@KicchaRequest | @AnikhaX_Music__ ]"),
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
             )
