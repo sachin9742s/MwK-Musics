@@ -1,4 +1,4 @@
-# Regen & Mod by @shamilhabeebnelli
+# Regen & Mod by @sachin_official_admin
 # Pyrogram - Telegram MTProto API Client Library for Python
 # Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
 #
@@ -54,7 +54,7 @@ async def yplay(_, message: Message):
         for administrator in grpadmins:
             admins.append(administrator.user.id)
         if message.from_user.id not in admins:
-            await message.reply_sticker("CAACAgUAAxkBAAIJM2DTpi52NSM-O-KnYcC1IzbJos8HAAK6AQACsm0wVffnRbQlKgeTHwQ")
+            await message.reply_sticker("CAACAgIAAxkBAAIB-2D0BhmwsKTiZUi_AeJVhyoxpPUkAALYDgACbKy4S3x0xJsbYPWIHgQ")
             await message.delete()
             return
     type=""
@@ -226,7 +226,7 @@ async def deezer(_, message):
         for administrator in grpadmins:
             admins.append(administrator.user.id)
         if message.from_user.id not in admins:
-            await message.reply_sticker("CAACAgUAAxkBAAIJM2DTpi52NSM-O-KnYcC1IzbJos8HAAK6AQACsm0wVffnRbQlKgeTHwQ")
+            await message.reply_sticker("CAACAgIAAxkBAAIB-2D0BhmwsKTiZUi_AeJVhyoxpPUkAALYDgACbKy4S3x0xJsbYPWIHgQ")
             await message.delete()
             return
     user=f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
@@ -533,4 +533,4 @@ admincmds=["j", "um", "m", "l", "cl", "mwk", "ps", "resume", "sp", "sk", "r", "s
 
 @Client.on_message(filters.command(admincmds) & ~filters.user(ADMINS))
 async def notforu(_, m: Message):
-    await m.reply_sticker("CAACAgUAAxkBAAIJM2DTpi52NSM-O-KnYcC1IzbJos8HAAK6AQACsm0wVffnRbQlKgeTHwQ")
+    await m.reply_sticker("CAACAgIAAxkBAAIB-2D0BhmwsKTiZUi_AeJVhyoxpPUkAALYDgACbKy4S3x0xJsbYPWIHgQ")
