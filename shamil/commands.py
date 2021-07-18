@@ -1,4 +1,4 @@
-# Regen & Mod by @shamilhabeebnelli
+# Regen & Mod by @sachin_official_admin
 # Pyrogram - Telegram MTProto API Client Library for Python
 # Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
 #
@@ -59,7 +59,7 @@ HELP = """
 • `/update` __Update Current Settings n Restarts the Bot__
 
 © Powered By 
-[ __@mwklinks | @redbullfed__ ]
+[ __@AnikhaX_Music | @KicchaRequest__ ]
 """
 
 
@@ -70,17 +70,17 @@ async def start(client, message):
         [
         InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/KicchaRequest'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/KicchaRequest')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/sachin_official_admin'),
+                InlineKeyboardButton('🎧 Songs', url='https://t.me/AnikhaX_Music')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/sachin9742s/mwk-musics'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/9b72921bb0a38a3e7069e.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
     await message.delete()
 
 
@@ -88,15 +88,15 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/KicchaRequest'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/KicchaRequest')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/sachin_official_admin'),
+                InlineKeyboardButton('🎧 Songs', url='https://t.me/AnikhaX_Music')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/sachin9742s/mwk-musics'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg", caption=HELP, reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/9b72921bb0a38a3e7069e.jpg", caption=HELP, reply_markup=reply_markup)
     await message.delete()
